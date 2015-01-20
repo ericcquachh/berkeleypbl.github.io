@@ -191,9 +191,13 @@ padding: 100px 0 90px;
   margin: auto;
 }
 
+
+
 .header-parallax {
   height: 580px;
+  background-position: 0%, -7em;
 }
+
 
 .opcaity {
   background: rgba(0,0,0,0.89);
@@ -313,7 +317,7 @@ h1.underline-dotted,h2.underline-dotted,h3.underline-dotted,h4.underline-dotted 
 .banner {
 
   background-color: rgba(255,255,255,1);
-  height:80px !important;
+  /*height:80px !important;*/
   z-index: 1000;
 }
 
@@ -339,12 +343,18 @@ margin: auto;
   padding-bottom: 30px;
 }
 
+.apply-now {
+  color:#9c1f1f;
+}
+
+
 .menu-li:hover {
   border-top-style: none;
   background-color: #9c1f1f;
   color: #FFF;
   transition: background, .7s;
 }
+
 
 .banner--clone {
   opacity: 0.8;
@@ -385,7 +395,7 @@ background: #FFFFFF !important;
 
 .banner {
   position: relative;
-  overflow: auto;
+  overflow: visible;
 }
 
 .banner li {
@@ -399,8 +409,6 @@ background: #FFFFFF !important;
 .banner {
   position: relative;
   width: 100% !important;
-  overflow: auto;
-  font-size: 18px;
   line-height: 24px;
   text-align: center;
   color: rgba(255,255,255,0.6);
@@ -455,7 +463,7 @@ background: #FFFFFF !important;
   background:rgba(0, 0, 0, 0.45) url(../images/pattern.png) repeat;
   position: absolute;
   width: 100%;
-  top: 80px;
+
   height: 580px;
 }
 
@@ -567,10 +575,6 @@ background: #FFFFFF !important;
     width: 80px;
   }
 
-
-
-
-
 }
 
 /********************************************
@@ -579,8 +583,9 @@ background: #FFFFFF !important;
 
 ********************************************/
 #Grid {
-  text-align: justify;
+  text-align: center;
   font-size: .1px;
+  background-color: black;
 }
 
 #Grid .mix {
@@ -952,6 +957,11 @@ font-size: 20px;
 position: relative;
 right: 13px;
 top: 1px;
+}
+
+/* ====================== Sponsors */
+#sponsors img{
+  padding: 10px;
 }
 
 /*Responsive*/

@@ -799,7 +799,13 @@ html { overflow-y: scroll; }
 
   .fotter-quote,.copyright-area {text-align: center;}
 
-  .w-col {text-align: center;}
+  .w-col {
+    text-align: center;
+    margin-top: -60px;
+    padding-bottom: 5px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
 
 }
 
